@@ -160,13 +160,14 @@ section{
 
 .recipies-cards{
     margin-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-items: center;
     align-items: center;
 }
 
 .recipie-card{
-    max-width: 610px;
     height: auto;
     padding: 30px;
     border: none;
@@ -176,29 +177,30 @@ section{
 }
 
 .recipie-card-image{
-    max-width: 550px;
-    max-height: 308px;
-    border-radius: 20px;
+    max-width: 487px;
+    height: 300px;
 }
 
 .recipie-card-image img{
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 .recipie-card-text{
-    margin-top: 130px;
+    /* margin-top: 20px; */
+    padding-top: 20px;
     text-align: left;
 }
 
-.recipie-card-text h3{
+.recipie-card-title{
     color: rgb(24, 25, 31);
     font-size: 2.34rem;
     font-weight: 800;
     line-height: 40px;
 }
 
-.recipie-card-text p{
+.recipie-card-subtitle{
     color: rgb(24, 25, 31);
     font-size: 1.5rem;
     font-weight: 400;
@@ -208,8 +210,8 @@ section{
 /* <!-- followers --><!-- followers --> */
 
 .followers-section{
-    max-width: 1300px;
-    margin: 0 auto;
+    /* max-width: 1300px; */
+    /* margin: 0 auto; */
     
 }
 .follower{
@@ -271,8 +273,7 @@ section{
         align-items: center;
         text-align: center;
     }
-    .about-container, 
-    .recipies-cards, 
+    .about-container,  
     .follower
     {
         flex-direction: column;
@@ -283,6 +284,7 @@ section{
         margin-top: 20px;
     }
     .recipies-cards{
+        grid-template-columns: 1fr;
         gap: 20px;
     }
 
@@ -303,6 +305,10 @@ section{
     }
     .recipie-card-text{
         margin-top: 20px;
+    }
+    .recipies-cards{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 
     .follower{
