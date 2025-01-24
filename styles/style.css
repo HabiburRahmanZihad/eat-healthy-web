@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.montserrat-normal {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Deafault Style */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+section{
+    margin-top: 100px;
+}
+  
+
+/* Shared style */
+.display-flex{
+  display: flex;
+}
+
+
+/* Header *//* Header *//* Header */
+.banner-container{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.banner-text h1{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 130%;
+    color: rgb(87, 87, 87);
+}
+
+.banner-text p{
+    font-size: 1.67rem;
+    font-weight: 500;
+    line-height: 160%;
+    color: rgb(130, 130, 130);
+    max-width: 500px;
+    padding-top: 20px;
+}
+
+.primary-btn {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 130%;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.5);
+    background: linear-gradient(69.40deg, rgb(251, 162, 79) -6.919%,rgb(255, 30, 30) 144.985%);
+}
+
+.linier-gradient {
+    background: linear-gradient(69.40deg, rgb(251, 162, 79) -6.919%,rgb(255, 30, 30) 144.985%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Banner Image */
+
+.banner-image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* <!-- About Me --><!-- About Me --> */
+.about-section{
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-container{
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-text{
+    max-width: 444px;
+    padding: 0 20px;
+    margin-top: 64px;
+
+}
+
+.about-text h2 {
+    color: rgb(112, 112, 112);
+    font-size: 3.33rem;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.about-text p{
+    padding-top: 32px;
+    color: rgb(24, 25, 31);
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 32px;
+}
+
+.about-image{
+    margin-top: 64px;
+    max-width: 338px;
+    max-height: 536px;
+}
+
+.about-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.button{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+/* <!-- My recipies --><!-- My recipies --> */
+.recipies-title{
+    color: rgb(103, 103, 103);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+}
+
+.recipies-subtitle{  
+    color: rgb(37, 37, 37);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 22px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.recipies-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.recipie-card{
+    max-width: 610px;
+    height: auto;
+    padding: 30px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+
+.recipie-card-image{
+    max-width: 550px;
+    max-height: 308px;
+    border-radius: 20px;
+}
+
+.recipie-card-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.recipie-card-text{
+    margin-top: 130px;
+    text-align: left;
+}
+
+.recipie-card-text h3{
+    color: rgb(24, 25, 31);
+    font-size: 2.34rem;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.recipie-card-text p{
+    color: rgb(24, 25, 31);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* <!-- followers --><!-- followers --> */
+
+.followers-section{
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+.follower{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 165px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.follower-card-title{
+    color: rgb(24, 25, 31);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 8px;
+}
+
+.follower-card-subtitle{
+    color: rgb(24, 25, 31);
+    font-size: 1.34rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* <!-- Footer --><!-- Footer --> */
+.footer-container{
+    background: rgb(11, 13, 23);;
+    text-align: center;
+}
+
+.footer-title{
+    font-size: 2.5rem;
+    font-weight: 200;
+    padding-top: 40px;
+    color: rgb(91, 91, 91);
+}
+
+.footer-subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 1.34rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 37px 0 115px 0;
+}
+
+
+
+
+/* Responsive for mobile */
+@media screen and (max-width: 480px){
+    body{
+        max-width: 95%;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .about-container, 
+    .recipies-cards, 
+    .follower
+    {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .recipie-card-text{
+        margin-top: 20px;
+    }
+    .recipies-cards{
+        gap: 20px;
+    }
+
+    .follower{
+        gap: 20px;
+        padding: 30px;
+    }
+}
+
+
+/* Responsive for Tablet */
+@media (min-width: 480px) and (max-width: 1024px){
+    body{
+        max-width: 95%;
+    }
+    .recipies-cards{
+        gap: 20px;
+    }
+    .recipie-card-text{
+        margin-top: 20px;
+    }
+
+    .follower{
+        gap: 50px;
+        padding: 20px;
+    }
+}
