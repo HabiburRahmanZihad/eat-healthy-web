@@ -188,7 +188,6 @@ section{
 }
 
 .recipie-card-text{
-    /* margin-top: 20px; */
     padding-top: 20px;
     text-align: left;
 }
@@ -209,11 +208,7 @@ section{
 
 /* <!-- followers --><!-- followers --> */
 
-.followers-section{
-    /* max-width: 1300px; */
-    /* margin: 0 auto; */
-    
-}
+
 .follower{
     margin-top: 100px;
     align-items: center;
